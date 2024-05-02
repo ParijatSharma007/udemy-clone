@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import "./abstracts/theme.module";
+
+:root {
+  @include printVariables();
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--bodyFontColor);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+  // font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto";
+  background-color: var(--white) !important;
+  overflow-x: hidden;
+}
+#__next {
+  overflow-x: hidden;
+}
+
+//login
+.loginbox {
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 100px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.loginForm {
+  text-align: center;
+}
+
+.loginForm .MuiTypography-root {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.loginForm .MuiFormControl-root {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginForm .MuiInputBase-input {
+  font-size: 16px;
+}
+
+.loginForm .MuiFormLabel-root {
+  font-size: 14px;
+  color: #666666;
+}
+
+.loginForm .MuiOutlinedInput-root {
+  border-radius: 10px;
+}
+
+.loginForm .MuiButton-root {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  color: black !important;
+}
+
+.loginForm .MuiButton-root:hover {
+  background-color: #45a049;
+  background-color: #7a9abb;
+}
+
+.buttonlogpage {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+//signup box
+
+.signupbox1 {
+  display: flex;
+  gap: 20px;
+  color: black !important;
+}
+
+//admin TeacherList
+
+.teacher {
+  font-size: larger;
+  font-weight: 600;
+  padding-left: 600px;
+  padding-top: 60px;
+  color: black !important;
+}
+
+//Video List Page
+.videohead {
+  font-size: larger;
+  color: black !important;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.videotable {
+  height: 400px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  margin-top: 50px;
+  color: black !important;
+}
+
+//teacherList page
+.teachtable {
+  color: black !important;
+}
+
+//History Page
+.historyhead {
+  color: black !important;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+  padding-top: 50px;
+}
